@@ -5,11 +5,20 @@ import Movies from './pages/Movies.jsx'
 import Tolkien from './pages/Tolkien.jsx'
 import Appendix from './pages/Appendix.jsx'
 import Login from './pages/Login/Login.jsx'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App() {
   const [bgImage, setBgImage] = useState('../public/bg-lotr.png')
+  // const [showContent, setShowContent] = useState(false)
+
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setShowContent(true)
+  //   }, 3000);
+
+  //   return  () => clearTimeout(timer);
+  // }, [])
 
   function handleHover(item) {
     let imgURL = '';

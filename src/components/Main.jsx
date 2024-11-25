@@ -1,4 +1,3 @@
-import Content from './Content.jsx'
 
 const Main = () => {
   return (
@@ -6,7 +5,9 @@ const Main = () => {
       <div className="title-comp">
         <h1>Maedol N&apos;i-mâr Wanderer</h1>
        </div>
-      <Content />
+       <div className="content">
+        <h2>HALOO!</h2>
+       </div>
     </main>
   )
 }

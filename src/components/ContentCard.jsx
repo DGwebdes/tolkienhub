@@ -6,8 +6,8 @@ const ContentCard = ( { title, content, bgImg, fgImg }) => {
     <div className="content-card">
         <div className="img-wrapper">
             <h1 className="cont-title">{ title }</h1>
-            <img src={bgImg} alt="pop-up" className="ft-flash" />
-            <img src={fgImg} alt="homepage-img" className="bg-img" />
+            <img src={bgImg} alt="card-pop-up" className="ft-flash" />
+            <img src={fgImg} alt="card-img" className="bg-img" />
         </div>
         <p> { content } </p>
     </div>
