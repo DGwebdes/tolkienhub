@@ -20,7 +20,7 @@ const tolkienBooks = [
       bgImg: "../../public/one.png"
     },
     {
-      title: 'The History of Middle-earth Series',
+      title: 'The History of Middle-Earth',
       content: 'The History of Middle-earth series consists of 12 volumes edited by Christopher Tolkien, which provide extensive commentary, background information, and earlier drafts of Tolkien\'s legendarium.',
       bgImg: "../../public/one.png"
     },
