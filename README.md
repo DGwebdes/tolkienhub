@@ -3,7 +3,6 @@
 A **React + Vite** web application designed for fans of J.R.R. Tolkien. This platform serves as a repository of Tolkien-related facts, curiosities, and resources, offering a dynamic and immersive experience for enthusiasts of Middle-earth.
 
 ## Table of Contents
-
 - [Tolkien Fan Repository](#tolkien-fan-repository)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
@@ -41,19 +40,26 @@ A **React + Vite** web application designed for fans of J.R.R. Tolkien. This pla
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/tolkien-fan-repo.git
    cd tolkien-fan-repo
    ```
+
 2. Install dependencies:
+
    ```bash
    npm install
    ```
+
 3. Start the development server:
+
    ```bash
    npm run dev
    ```
+
 4. Open the application in your browser:
+
    ```
    http://localhost:5173
    ```
@@ -74,6 +80,7 @@ A **React + Vite** web application designed for fans of J.R.R. Tolkien. This pla
 src/
 ├── components/
 │   ├── Header.jsx
+│   ├── ContentCard.jsx
 │   └── Main.jsx
 ├── pages/
 │   ├── Books.jsx
@@ -82,15 +89,16 @@ src/
 │   ├── Appendix.jsx
 │   └── Login/
 │       └── Login.jsx
+├── utils/
 ├── App.jsx
 ├── main.jsx
+├── index.css
 ├── assets/
 │   ├── bg-lotr.png
 │   ├── bookz.jpg
 │   ├── movies.jpg
 │   ├── tolkin.jpg
 │   ├── map.jpg
-├── styles/  (optional custom styles directory)
 ```
 
 ---
@@ -110,17 +118,23 @@ We welcome contributions to make this repository even better! Please follow thes
 
 1. Fork the repository.
 2. Create a feature branch:
+
    ```bash
    git checkout -b feature/your-feature-name
    ```
+
 3. Commit your changes:
+
    ```bash
    git commit -m "Add your feature"
    ```
+
 4. Push the branch:
+
    ```bash
    git push origin feature/your-feature-name
    ```
+
 5. Open a pull request.  
 
 ---
