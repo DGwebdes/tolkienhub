@@ -1,6 +1,7 @@
 # Tolkien Fan Repository
 
 A **React + Vite** web application designed for fans of J.R.R. Tolkien. This platform serves as a repository of Tolkien-related facts, curiosities, and resources, offering a dynamic and immersive experience for enthusiasts of Middle-earth.
+It's an application made from a fan to fans. It is under work and is one of my first works in react.
 
 ---
 
