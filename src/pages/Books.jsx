@@ -2,7 +2,7 @@ import ContentCard from "../components/ContentCard"
 import tolkienBooks from "../utils/bookList"
 
 const Books = () => {
-  const fgImg = "../../public/ring.jpg"
+  const fgImg = "../../public/rings2.jpg"
 
 
   return (

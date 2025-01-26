@@ -6,7 +6,7 @@ const Main = () => {
         <h1>Maedol N&apos;i-mâr Wanderer</h1>
        </div>
        <div className="content">
-        <h2>HALOO!</h2>
+        <h2>Welcome Fellow Wanderer</h2>
        </div>
     </main>
   )

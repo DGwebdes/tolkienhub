@@ -2,7 +2,7 @@ import ContentCard from "../components/ContentCard"
 import tolkienMovies from "../utils/movieList"
 
 const Movies = () => {
-  const fgImg = "../../public/ring.jpg"
+  const fgImg = "../../public/movies2.jpg"
 
   return (
     <div className="movie-p">
