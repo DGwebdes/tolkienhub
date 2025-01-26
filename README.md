@@ -2,7 +2,10 @@
 
 A **React + Vite** web application designed for fans of J.R.R. Tolkien. This platform serves as a repository of Tolkien-related facts, curiosities, and resources, offering a dynamic and immersive experience for enthusiasts of Middle-earth.
 
+---
+
 ## Table of Contents
+
 - [Tolkien Fan Repository](#tolkien-fan-repository)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
@@ -20,7 +23,7 @@ A **React + Vite** web application designed for fans of J.R.R. Tolkien. This pla
 
 - **Interactive Navigation:** Hover effects that dynamically update the background imagery for an immersive Tolkien experience.  
 - **Curated Pages:** Explore distinct sections for:
-  - **Books:** A comprehensive list of Tolkien's literary works.
+  - **Books:** A comprehensive list of Tolkien's literary works sourced from a utility file.
   - **Movies:** Insights and details about movie adaptations.
   - **Tolkien:** Facts and curiosities about the man behind Middle-earth.
   - **Appendix:** Maps and additional lore resources.
@@ -42,7 +45,7 @@ A **React + Vite** web application designed for fans of J.R.R. Tolkien. This pla
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/tolkien-fan-repo.git
+   git clone https://github.com/DGwebdes/tolkienhub.git
    cd tolkien-fan-repo
    ```
 
@@ -70,7 +73,8 @@ A **React + Vite** web application designed for fans of J.R.R. Tolkien. This pla
 
 1. Launch the application and navigate through various sections using the header.
 2. Hover over the navigation links to see the dynamic background updates.
-3. Dive into Tolkien's world by exploring **Books**, **Movies**, and more.  
+3. Explore the **Books** section, populated with data from the `utils/bookList.js` file, to read summaries of Tolkien's works.
+4. Dive into Tolkien's world by exploring **Movies**, **Appendix**, and more.
 
 ---
 
@@ -80,7 +84,6 @@ A **React + Vite** web application designed for fans of J.R.R. Tolkien. This pla
 src/
 ├── components/
 │   ├── Header.jsx
-│   ├── ContentCard.jsx
 │   └── Main.jsx
 ├── pages/
 │   ├── Books.jsx
@@ -90,15 +93,19 @@ src/
 │   └── Login/
 │       └── Login.jsx
 ├── utils/
+│   ├── movieList.js
+│   ├── tolkien.js
+│   ├── appendix.js
+│   └── bookList.js
 ├── App.jsx
 ├── main.jsx
-├── index.css
 ├── assets/
 │   ├── bg-lotr.png
 │   ├── bookz.jpg
 │   ├── movies.jpg
 │   ├── tolkin.jpg
 │   ├── map.jpg
+├── styles/  (optional custom styles directory)
 ```
 
 ---
@@ -109,6 +116,7 @@ src/
 - **Favorites Feature:** Enable users to bookmark their favorite books, movies, or lore.
 - **Dark Mode:** Provide a toggle for dark/light themes.
 - **API Integration:** Fetch additional Tolkien-related data from external APIs.
+- **Expanded Book Data:** Use the `/utils` folder to include richer data, such as publication dates and character highlights.
 
 ---
 
@@ -135,10 +143,10 @@ We welcome contributions to make this repository even better! Please follow thes
    git push origin feature/your-feature-name
    ```
 
-5. Open a pull request.  
+5. Open a pull request.
 
 ---
 
 ## License
 
-This project is open-source
+This project is licensed under the [MIT License](LICENSE).
