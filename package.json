@@ -1,5 +1,6 @@
 {
-  "name": "website",
+  "homepage": "https://DGwebdes.github.io/tolkienhub",
+  "name": "tolkienhub",
   "private": true,
   "version": "0.0.0",
   "type": "module",
